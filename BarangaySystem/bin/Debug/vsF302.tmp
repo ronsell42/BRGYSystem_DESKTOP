@@ -1,0 +1,160 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BarangaySystem
+</name>
+</assembly>
+<members>
+<member name="T:BarangaySystem.dbBrgySystemDataSet.tblResidentsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BarangaySystem.dbBrgySystemDataSet.tblUserAccountsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BarangaySystem.dbBrgySystemDataSet.tblBlotterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:BarangaySystem.dbBrgySystemDataSet.tblResidentsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BarangaySystem.dbBrgySystemDataSet.tblUserAccountsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BarangaySystem.dbBrgySystemDataSet.tblBlotterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:BarangaySystem.dbBrgySystemDataSet.tblResidentsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BarangaySystem.dbBrgySystemDataSet.tblUserAccountsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BarangaySystem.dbBrgySystemDataSet.tblBlotterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:BarangaySystem.dbBrgySystemDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:BarangaySystem.dbBrgySystemDataSetTableAdapters.tblResidentsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:BarangaySystem.dbBrgySystemDataSetTableAdapters.tblUserAccountsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:BarangaySystem.dbBrgySystemDataSetTableAdapters.tblBlotterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:BarangaySystem.dbBrgySystemDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(BarangaySystem.dbBrgySystemDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:BarangaySystem.dbBrgySystemDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(BarangaySystem.dbBrgySystemDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:BarangaySystem.dbBrgySystemDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(BarangaySystem.dbBrgySystemDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:BarangaySystem.dbBrgySystemDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:BarangaySystem.dbBrgySystemDataSetTableAdapters.TableAdapterManager.UpdateAll(BarangaySystem.dbBrgySystemDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:BarangaySystem.dbBrgySystemDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:BarangaySystem.dbBrgySystemDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:BarangaySystem.dbBrgySystemDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:BarangaySystem.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:BarangaySystem.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:BarangaySystem.My.Resources.Resources.iconAbout">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BarangaySystem.My.Resources.Resources.iconAddPerson">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BarangaySystem.My.Resources.Resources.iconBltrRpt">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BarangaySystem.My.Resources.Resources.iconBrgyPic">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BarangaySystem.My.Resources.Resources.iconCancel">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BarangaySystem.My.Resources.Resources.iconDelete">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BarangaySystem.My.Resources.Resources.iconEditPerson">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BarangaySystem.My.Resources.Resources.iconHome">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BarangaySystem.My.Resources.Resources.iconLogout">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BarangaySystem.My.Resources.Resources.iconOrganization">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BarangaySystem.My.Resources.Resources.iconResidents">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BarangaySystem.My.Resources.Resources.iconSearch">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:BarangaySystem.My.Resources.Resources.iconSettings">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:BarangaySystem.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
